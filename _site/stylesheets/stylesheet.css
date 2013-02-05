@@ -58,7 +58,7 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
+  content: "";
   font-size: 24px;
 }
 
@@ -132,6 +132,13 @@ h1, h2, h3, h4, h5, h6 {
   width:70%;
   clear:both;
   margin:0 auto;
+}
+.span8{
+  width:90%;
+  margin:0 auto;
+  clear:both;
+  border-top: 1px dashed #B5E853;
+  border-bottom:1px dashed #B5E853;
 }
 .span3:last-child{
   margin-right: 0px;
@@ -246,7 +253,7 @@ a {
   border-radius: 100px;
   width:200px;
   height:200px;
-  border:2px solid #b5e853;
+  border:5px solid #b5e853;
   margin: 0 auto;
 }
   .photo img{
